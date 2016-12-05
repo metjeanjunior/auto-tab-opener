@@ -1,0 +1,10 @@
+<config>
+	<urls>
+		<page>google.com</page>
+		<page>example.com</page>
+	</urls>
+	<settings>
+		<always_open_cmd>True</always_open_cmd>
+		<always_load_url_list>True</always_load_url_list>
+	</settings>
+</config>

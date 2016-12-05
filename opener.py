@@ -1,6 +1,6 @@
 import webbrowser
 
-url_list = ()
+url_list = ('google.com', 'example.com')
 always_open_cmd = True
 always_load_url_list = True
 
@@ -19,4 +19,4 @@ if always_open_cmd:
 		print 'your list is now: ', url_list[0]
 
 for url in url_list:
-	webbrowser.open(url)
+	webbrowser.get('chrome %s').open('http://www.google.com')
